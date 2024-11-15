@@ -1,4 +1,4 @@
-#container{
+#container {
     width: 936px;
     display: flex;
     margin: 0 auto;
@@ -6,12 +6,21 @@
     border: 2px solid #000;
 }
 
-#left{
+/* ................ Hier begint de linker balk ................  */
+#left {
     width: 240px;
     background-color: #f2f2f2;
     height: 335px;
     border: 2px solid #000;
 }
+
+.nsklok{
+    
+}
+
+
+
+/* .............. Hier begint de balk in het midden ...........  */
 
 #middle {
     width: 568px;
@@ -22,9 +31,131 @@
     border: 2px solid #000;
 }
 
-#right{
-    width:128px;
+#middle {
+    background-color: #0048ed;
+
+}
+
+#reizigersinfo {
+    width: 480px;
+    height: 240px;
+    background-color: #f2f2f2;
+}
+
+#volgendetrein {
+    width: 480px;
+    height: 25px;
+    background-color: #08147b;
+    color: #f2f2f2;
+    text-align: start;
+    position: relative;
+    bottom: 15px;
+}
+
+#tijd {
+    width: 245px;
+    height: 40px;
+}
+
+.blok_1 {
+    position: absolute;
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(14, 12, 124);
+    font-size: 20px;
+}
+
+#Minuten {
+    font-size: 30px;
+}
+
+
+#Stad {
+    font-size: 30px;
+    position: relative;
+    right: -15px;
+    bottom: 35px;
+    color: rgb(14, 12, 124);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Bestemming {
+    position: relative;
+    left: 20px;
+    bottom: 55px;
+    font-size: 20px;
+    display: inline;
+    color: rgb(14, 12, 124);
+}
+
+#Type{
+    font-size: 30px;
+    position: relative;
+    bottom: 210px;
+    left: 300px;
+    color: rgb(14, 12, 124);
+    
+}
+
+.Logo_1{
+    width: 50px;
+    position: sticky;
+    display: inline;
+}
+
+.Logo_2{
+    width: 300px;
+    position: relative;
+    bottom: 80px;
+    left: 90px;
+}
+
+
+
+/* ............... Hier begint de rechter balk  .............. */
+
+#right {
+    width: 128px;
     height: 335px;
-    background-color: rgb(0, 0, 106);
+    background-color: #0048ed;
     border: 2px solid #000;
+}
+
+#balk_1 {
+    background-color: rgb(255, 255, 255);
+    width: 96px;
+    height: 96px;
+    margin: 35px 20px;
+}
+
+
+#balk_2 {
+    position: relative;
+    background-color: #0048ed;
+    width: 20px;
+    height: 20px;
+    top: -32px;
+}
+
+#spoorinfo_1 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(14, 12, 124);
+}
+
+#spoorinfo_2 {
+    font-size: 48px;
+    color: #0048ed;
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#B {
+    position: relative;
+    vertical-align: top;
+    bottom: 5px;
+    right: 3px;
+    font-size: 35px;
 }
